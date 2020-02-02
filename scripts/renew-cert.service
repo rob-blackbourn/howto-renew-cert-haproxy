@@ -1,0 +1,9 @@
+[Unit]
+Description=Renew the lets encrypt certificate
+
+[Service]
+Type=oneshot
+ExecStart=/etc/haproxy/scripts/renew-cert.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Renew the certificate monthly
+
+[Timer]
+OnCalendar=monthly
+Unit=renew-cert.service
+
+[Install]
+WantedBy=timers.target
