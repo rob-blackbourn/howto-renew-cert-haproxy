@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOMAIN=www.bareasgi.com
+DOMAIN=www.example.com
 HAPROXY_CERTS=/etc/haproxy/certs
 HAPROXY_PEM=${HAPROXY_CERTS}/${DOMAIN}.pem
 HAPROXY_PEM_BAK=${HAPROXY_CERTS}/${DOMAIN}-$(date --iso-8601=ns).pem
