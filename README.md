@@ -1,0 +1,1 @@
+# howto-renew-cert-haproxy
